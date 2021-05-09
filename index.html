@@ -1,21 +1,21 @@
 <div id="app">
   <img id="title" src="https://cdn.jsdelivr.net/gh/benongithub/bingo-app-color@master/title.PNG">
   <div id="selectBalls">
-    <button id="moreRed">Mehr Rot</button>
-    <label>Rot: <input id="redSelector" type="number" min="0" max="10"></label>
-    <button id="lessRed">Weniger Rot</button>
-    <button id="moreBlue" style="display: block;">Mehr Blau</button>
-    <label>Blau: <input id="blueSelector" type="number" min="0" max="10"></label>
-    <button id="lessBlue">Weniger Blau</button>
+    <img id="moreRed" src="https://cdn.jsdelivr.net/gh/benongithub/bingo-app-color@master/arrow_up_transparent.png">
+    <input style="color: red" id="redSelector" type="number" min="0" max="10" value=0>
+    <img  id="lessRed" src="https://cdn.jsdelivr.net/gh/benongithub/bingo-app-color@master/arrow_down_transparent.png">
+    <img id="moreBlue" src="https://cdn.jsdelivr.net/gh/benongithub/bingo-app-color@master/arrow_up_transparent.png">
+    <input style="color: blue" id="blueSelector" type="number" min="0" max="10" value=0>
+    <img id="lessBlue" src="https://cdn.jsdelivr.net/gh/benongithub/bingo-app-color@master/arrow_down_transparent.png">
   </div>
-  <img id="foot" src="https://cdn.jsdelivr.net/gh/benongithub/bingo-app-color@master/foot.PNG">
+  <img id="foot" src="https://cdn.jsdelivr.net/gh/benongithub/bingo-app-color@master/foot_transparent.png">
   <div id="displayBalls">
 
   </div>
   <div id="drawBalls">
-    <div id="numRedBalls"></div>
-    <div id="numBlueBalls"></div>
-    <button id="drawBall">Kugel ziehen</button>
+    <div style="display: none" id="numRedBalls"></div>
+    <div style="display: none" id="numBlueBalls"></div>
+    <img id="drawBall" src="https://cdn.jsdelivr.net/gh/benongithub/bingo-app-color@master/start.PNG">
     <div id="drawnBall"></div>
   </div>
 </div>

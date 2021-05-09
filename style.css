@@ -1,23 +1,46 @@
+input[type="color"],
+input[type="date"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="email"],
+input[type="month"],
+
+input[type="password"],
+input[type="search"],
+input[type="tel"],
+input[type="text"],
+input[type="time"],
+input[type="url"],
+input[type="week"],
+select:focus,
+textarea {
+  font-size: 16px;
+}
+
 h1,
 h2 {
   font-family: Lato;
 }
 
+img {
+  touch-action: manipulation;
+}
+
 #title {
   margin: 0 auto;
   display: block;
-  width: 700pt;
+  width:600pt;
 }
 
 #selectBalls {
   width: 350pt;
   height: 250pt;
-  border: 1px solid black;
+  border: 0px solid black;
 
   /* margin: 0 auto;
   margin-top: 20px;*/
   position: absolute;
-  top: 150pt;
+  top: 120pt;
   left: 40pt;
 }
 
@@ -25,11 +48,28 @@ h2 {
   display: block;
 }
 
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+  display: block;
+  font-size: 30pt;
+  width: 100pt;
+  border: 0;
+  text-align: center;
+}
+
 #foot {
   display: block;
   position: absolute;
-  top: 290pt;
-  right: 80pt;
+  top: 220pt;
+  left: 430pt;
   z-index: 5;
 }
 
@@ -41,21 +81,22 @@ h2 {
   /*margin: 0 auto;
   margin-top: 20px;*/
   position: absolute;
-  top: 150pt;
-  left: 455pt;
+  top: 110pt;
+  left: 430pt;
 
   background-image: url('https://cdn.jsdelivr.net/gh/benongithub/bingo-app-color@master/cage_transparent.png');
 }
 
 #drawBalls {
   width: 350pt;
-  height: 180pt;
-  border: 1px solid black;
+  height: 150pt;
+  border: 0px solid black;
 
   position: absolute;
-  top: 420pt;
+  top: 330pt;
   left: 40pt;
 }
+
 
 #drawBall {
   display: block;
@@ -86,4 +127,25 @@ h2 {
   to {
     transform: rotate(720deg);
   }
+}
+
+#lessBlue, #moreBlue, #blueSelector {
+  position: absolute;
+  right: 10pt;
+}
+
+#moreBlue {
+  top: 0pt;
+}
+
+#blueSelector {
+  top: 80pt;
+  right: 18pt;
+}
+
+#redSelector {
+  margin-left: 17pt;
+}
+#lessRed {
+  margin-left: 10pt
 }
