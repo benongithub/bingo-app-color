@@ -105,12 +105,15 @@ input[type=number] {
 }
 
 #drawnBall {
-  width: 40px;
-  height: 40px;
-  border: 1px solid black;
+  width: 40pt;
+  height: 40pt;
+  border: 0px solid black;
 
   margin: 0 auto;
   margin-top: 20px;
+  background-image: none;
+  background-repeat: no-repeat;
+  background-size: 40pt;
 }
 
 .spinAnimation {
@@ -148,4 +151,15 @@ input[type=number] {
 }
 #lessRed {
   margin-left: 10pt
+}
+
+.displayBall {
+  width: 40pt;
+  height: 40pt;
+
+  position: absolute;
+
+  background-image: none;
+  background-repeat: no-repeat;
+  background-size: 40pt;
 }
