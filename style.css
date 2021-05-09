@@ -3,35 +3,58 @@ h2 {
   font-family: Lato;
 }
 
+#title {
+  margin: 0 auto;
+  display: block;
+  width: 700pt;
+}
+
 #selectBalls {
-  width: 300px;
-  height: 200px;
+  width: 350pt;
+  height: 250pt;
   border: 1px solid black;
 
-  margin: 0 auto;
-  margin-top: 20px;
+  /* margin: 0 auto;
+  margin-top: 20px;*/
+  position: absolute;
+  top: 150pt;
+  left: 40pt;
 }
 
 #selectBalls label {
   display: block;
 }
 
-#displayBalls {
-  width: 300px;
-  height: 200px;
-  border: 1px solid black;
+#foot {
+  display: block;
+  position: absolute;
+  top: 290pt;
+  right: 80pt;
+  z-index: 5;
+}
 
-  margin: 0 auto;
-  margin-top: 20px;
+#displayBalls {
+  width: 300pt;
+  height: 282pt;
+  /* border: 1px solid black; */
+
+  /*margin: 0 auto;
+  margin-top: 20px;*/
+  position: absolute;
+  top: 150pt;
+  left: 455pt;
+
+  background-image: url('https://cdn.jsdelivr.net/gh/benongithub/bingo-app-color@master/cage_transparent.png');
 }
 
 #drawBalls {
-  width: 300px;
-  height: 200px;
+  width: 350pt;
+  height: 180pt;
   border: 1px solid black;
 
-  margin: 0 auto;
-  margin-top: 20px;
+  position: absolute;
+  top: 420pt;
+  left: 40pt;
 }
 
 #drawBall {
